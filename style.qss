@@ -1,0 +1,403 @@
+QPushButton {
+	background-color: transparent;
+}
+
+#file_btn,
+#search_btn,
+#sourceControl_btn,
+#debug_btn,
+#extensions_btn,
+#testing_btn {
+	padding-left: 2px;
+	border: 2px solid transparent;
+}
+
+#file_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/1.svg");
+}
+
+#file_btn:hover {
+	icon: url("./icons/1.svg");
+}
+
+#search_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/11.svg");
+}
+
+#search_btn:hover {
+	icon: url("./icons/11.svg");
+}
+
+#sourceControl_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/15.svg");
+}
+
+#sourceControl_btn:hover {
+	icon: url("./icons/15.svg");
+}
+
+#debug_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/7.svg");
+}
+
+#debug_btn:hover {
+	icon: url("./icons/7.svg");
+}
+
+#extensions_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/9.svg");
+}
+
+#extensions_btn:hover {
+	icon: url("./icons/9.svg");
+}
+
+
+#testing_btn:checked {
+	border-left: 2px solid #80CBC4;
+	icon: url("./icons/5.svg");
+}
+
+#testing_btn:hover {
+	icon: url("./icons/5.svg");
+}
+
+#account_btn:checked,
+#account_btn:hover {
+	icon: url("./icons/3.svg");
+}
+
+#settings_btn:checked,
+#settings_btn:hover {
+	icon: url("./icons/13.svg");
+}
+
+#splitLeft_btn:checked {
+	icon: url("./icons/4.png");
+}
+
+#splitDoawn_btn:checked {
+	icon: url("./icons/6.png");
+}
+
+
+#pushButton_10 {
+	background-color: #292929;
+	border-radius: 5px;
+	color: #D3D3D3;
+}
+
+#pushButton_10:hover {
+	color: #80CBC4;
+	background-color: #2A2C30;
+
+}
+
+#problems_btn,
+#output_btn,
+#debugCpnsole_btn,
+#ports_btn,
+#terminal_btn {
+	color: #b3c6d4;
+	border: 1px solid transparent;
+}
+
+#problems_btn:checked,
+#output_btn:checked,
+#debugCpnsole_btn:checked,
+#ports_btn:checked,
+#terminal_btn:checked {
+	color: #ffffff;
+	border-bottom: 1px solid #80CBC4;
+}
+
+#problems_btn:hover,
+#output_btn:hover,
+#debugCpnsole_btn:hover,
+#ports_btn:hover,
+#terminal_btn:hover {
+	color: #ffffff;
+}
+
+QTextEdit{
+	border: none;
+	background-color: #0F111A;
+	padding-left: 30px;
+}
+
+QTabWidget::pane {
+	border: 0;
+	background-color: #0F111A;
+}
+
+QTabBar::tab {
+	background-color: #0F111A;
+	color: #71797E;
+}
+
+QTabWidget>QWidget {
+	background-color: #0F111A;
+}
+
+QStackedWidget {
+	background-color: #090B10;
+}
+
+QSplitter {
+	width: 2px;
+	height: 2px;
+}
+
+QSplitter::handle {
+	background-color: #1E212D;
+}
+
+QSplitter::handle:pressed {
+	background-color: #3D565C;
+}
+
+#SW2 {
+	background-color: #090B10;
+}
+
+QTreeView {
+	border: none;
+	background-color: #090B10;
+	color: #899499;
+}
+
+QTreeView::item:hover {
+	color: snow;
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url("./icons/chevron-right.svg");
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url("./icons/chevron-down.svg");
+}
+
+#maximizeWindow:hover,
+#minimizeWindow:hover {
+	background-color: #2A2C30;
+}
+
+#more,
+#run,
+#go,
+#view,
+#selection,
+#edit,
+#file {
+	color: #b4b4b4;
+}
+
+#file:hover,
+#edit:hover,
+#selection:hover,
+#view:hover,
+#go:hover,
+#run:hover,
+#more:hover {
+	color: #80CBC4;
+}
+
+#file:focus,
+#edit:focus,
+#selection:focus,
+#view:focus,
+#go:focus,
+#run:focus,
+#more:focus {
+	color: #80CBC4;
+}
+
+#processId_btn {
+	color: #b4b4b4;
+}
+
+#more1:hover,
+#collapseAll:hover,
+#refresh:hover,
+#newFolder:hover,
+#newFile:hover,
+#exitTerminal_btn:hover,
+#maximizeTerminal_btn:hover,
+#moreActions_btn:hover,
+#killTerminal_btn:hover,
+#splitTerminal:hover,
+#processId_btn:hover,
+#collapseAll_btn:hover,
+#viewTable_btn:hover,
+#clearConsole_btn:hover,
+#clearConsole2_btn:hover,
+#lockScroling_btn:hover,
+#moreActions2_btn:hover,
+#moreActions3_btn:hover,
+#splitTerminal1:hover {
+
+	background-color: #2A2C30;
+	border-radius: 5px;
+}
+
+#widget_7:hover,
+#widget_10:hover {
+	border-radius: 5px;
+	background-color: #292929;
+}
+
+#addTerminal_btn:hover,
+#launchProfile_btn:hover,
+#runDebug_btn:hover,
+#run_btn:hover {
+	border-radius: 5px;
+	background-color: #5a5a5a;
+}
+
+QMenu{
+	background-color: #090B10;
+	font-size: large;
+	color: #BABED8;
+}
+
+QMenu::separator{
+	background-color: #BABED8;
+	height: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+QMenu::item{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+QMenu::item:selected{
+	color: #80CBC4;
+	background-color: black;
+}
+
+
+
+
+#closeWindow:hover {
+	background-color: #E81123;
+}
+
+#widget {
+	background-color: #090B10;
+	border-bottom: 1px solid #1E212D;
+}
+
+#widget_3 {
+	background-color: #090B10;
+	border-right: 1px solid #1E212D;
+}
+
+#widget_4 {
+	background-color: #090B10;
+
+}
+
+#label {
+	color: #cdd1e9;
+}
+
+#widget_5 {
+	background-color: #0F111A;
+}
+
+#widget_2 {
+	background-color: #090B10;
+	border-top: 1px solid #1E212D;
+}
+
+QTabBar::close-button {
+	image: url("./icons/chrome-close.svg")
+}
+
+QTabBar::tab:selected {
+	border-bottom: 1px solid #80CBC4;
+	color: #E5E4E2;
+}
+
+QTabBar::tab {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20;
+}
+
+QScrollBar:vertical {
+	border: 0px solid transparent;
+	background: #090B10;
+}
+QScrollBar::handle:vertical {
+	background: #242424;
+}
+
+QScrollBar::handle:vertical:hover {
+	background: #1b1b1b;
+} 
+
+QScrollBar::handle:vertical:pressed {
+	background: #80CBC4;
+} 
+QScrollBar::add-line:vertical {
+	border: 0px solid transparent;
+	background: transparent;
+	height: 0px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+	border: 0px solid transparent;
+	background: transparent;
+	height: 0px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	border: 0px solid transparent;
+	width: 0px;
+	height: 0px;
+	background: transparent;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	background: none;
+}
+
+
+QLineEdit{
+	background-color: #1A1C25;
+	border: none;
+	color: #f1f1f1;
+}
+
+QComboBox{
+	background-color: #1A1C25;
+	color: #f1f1f1;
+}
+
+QComboBox::down-arrow{
+	image: url("./icons/chevron-down.svg");
+}
+
+QComboBox::drop-down {
+   border: 0;
+}
